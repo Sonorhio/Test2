@@ -24,6 +24,7 @@ namespace Test
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             Console.WriteLine("Coucou Dupy");
+            Console.WriteLine("Salut D'agat");
         }
 
         protected override void UnloadContent()
