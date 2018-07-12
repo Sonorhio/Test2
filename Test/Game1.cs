@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System;
 
 namespace Test
 {
@@ -22,6 +23,7 @@ namespace Test
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            Console.WriteLine("Coucou Dupy");
         }
 
         protected override void UnloadContent()
